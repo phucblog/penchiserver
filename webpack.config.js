@@ -2,7 +2,7 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-	entry: './client/src/main.js',
+	entry: './front.component/src/main.js',
 	output: {
 		path: path.resolve(__dirname, './public/dist'),
 		publicPath: '/dist/',

@@ -1,5 +1,5 @@
 <template>
-	<h1>From App</h1>
+	<h1>App Component Start Here</h1>
 </template>
 
 <script>
