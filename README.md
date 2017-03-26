@@ -8,7 +8,7 @@ clone repository trên git về
 <pre>
   git clone https://github.com/phucblog/penchiserver
   cd penchiserver
-  npm start
+  npm install
 </pre>
 </div>
 <h3>Giải thích Package Script Run</h3>
