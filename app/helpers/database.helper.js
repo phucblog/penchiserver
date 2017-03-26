@@ -1,5 +1,7 @@
-const mongoose = require('mongoose');
 const Config = require('../config/database.config');
+const Promise = require('bluebird');
+const mongoose = Promise.promisifyAll(require('mongoose'));
+
 class DatabaseHelper {
 	static init() {
 		const URL = Config.MongodbServer.URL;

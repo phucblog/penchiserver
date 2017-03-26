@@ -1,8 +1,16 @@
 doctype html
 html
 	head
-		title= title
+		title Vue-Engine Template Demo 
 		link(rel='stylesheet', href='/stylesheets/style.css')
+		// Google Fonts
+		link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic')
+		// CSS Reset
+		link(rel='stylesheet', href='//cdn.rawgit.com/necolas/normalize.css/master/normalize.css')
+		// Milligram CSS minified
+		link(rel='stylesheet', href='//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css')
 	body
-		block content
+		#app
+			.container
+				block content
 		script(src='/dist/build.js')

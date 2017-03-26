@@ -7,6 +7,7 @@
     "dev": "cross-env NODE_ENV=development npm-run-all --parallel watch:server watch:front",
     "watch:front": "webpack --watch --progress --debug",
     "watch:server": "nodemon --ignore front.component/ --ignore public/dist/",
+    "vue": "cross-env NODE_ENV=development webpack --watch --progress --debug",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {

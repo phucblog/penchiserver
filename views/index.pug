@@ -1,11 +1,19 @@
 extends layout
 
 block content
-	h1= title
-	p Welcome to #{title}
-	#app
-		app
-		p sucker hihi
-		home
-		//- p some text
-		
+	div(style='text-align: center;border-bottom: 4px solid;margin-bottom: 30px;')
+		h2 Welcome to My Page
+
+	first
+
+	div(style='border-bottom: 1px solid;margin-bottom: 30px;')
+		div(style='text-align: center;')
+			h3 These Texts Are Rendered From Server
+		each item in result ? result : ['There are no values']
+			p= item.data
+	
+	second
+
+	div(style='text-align: center;')
+		h2 End Page
+	

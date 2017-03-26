@@ -1,9 +1,8 @@
 const express = require('express');
 const homepageRouter = express.Router();
 
-homepageRouter.route('/')
-	.get((req, res) => {
-		res.render('index', { title: 'Phuc is here' });
-	});
+const homepageCtrl = require('../controller/homepage.ctrl');
+
+homepageRouter.route('/').get(homepageCtrl.basicTest);
 
 module.exports = homepageRouter;
