@@ -1,0 +1,11 @@
+{
+	"extends": "rallycoding",
+	"rules": {
+		"no-param-reassign": "off",
+		"import/newline-after-import": "off",
+		"padded-blocks": "warn",
+		"global-require": "warn",
+		"max-len": "warn",
+		"no-underscore-dangle": "warn"
+	}
+}
