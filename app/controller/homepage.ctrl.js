@@ -9,6 +9,15 @@ const testModel = require('../model/test.model');
  */
 class HomepageCtrl {
 
+/*
+	TASK-2: lấy danh sách bài viết và gán vào req.listArticles
+*/
+	static showDefaultPage(req, res, next) {
+		// viết = async hay promise ji cung dc
+		// const listArticles = dataProvider.findAll(ArticleModel);
+		// req.listArticles = listArticles;
+		// next();
+	}
 
 	static async basicTest(req, res, next) {
 		let result;

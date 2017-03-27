@@ -5,7 +5,7 @@
 		"import/newline-after-import": "off",
 		"padded-blocks": "warn",
 		"global-require": "warn",
-		"max-len": "warn",
+		"max-len": "off",
 		"no-underscore-dangle": "warn"
 	}
 }
